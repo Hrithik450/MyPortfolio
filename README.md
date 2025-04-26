@@ -46,8 +46,8 @@ Open https://www.google.com/search?q=http://localhost:3000 to view it in your br
 ## Connect With Me 🌐
 
 - **Website:** [https://hruthik.vercel.app](https://hruthik.vercel.app) 🔗
-- **LinkedIn:** [[Hruthik M](https://www.linkedin.com/in/hruthik-m-3595a0329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app_app)](https://www.linkedin.com/in/hruthik-m-3595a0329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app_app) 💼
-- **GitHub:** [[Hrithik450](https://github.com/Hrithik450)](https://github.com/Hrithik450) 💻
+- **LinkedIn:** [Hruthik M](https://www.linkedin.com/in/hruthik-m-3595a0329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app_app) 💼
+- **GitHub:** [Hrithik450](https://github.com/Hrithik450) 💻
 - **Email:** [mhrithik450@gmail.com](https://mail.google.com/mail/?view=cm&to=mhrithik450@gmail.com) ✉️
 
 📄 License
