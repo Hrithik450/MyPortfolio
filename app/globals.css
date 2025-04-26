@@ -19,8 +19,87 @@
   }
 }
 
+@keyframes textAnimation {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes imageAnimation {
+  from {
+    transform: translate3d(0px, 300px, 0px) rotateZ(25deg);
+  }
+  to {
+    transform: translate3d(0px, 0px, 0px) rotateZ(0deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-text-animation {
+  animation: textAnimation 500ms linear forwards;
+}
+
+.animate-image-animation {
+  animation: imageAnimation 600ms linear forwards;
+}
+
+.animate-scaleIn {
+  animation: scaleIn linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.Card-1 {
+  animation: scaleIn 1000ms linear !important;
+}
+
+.Card-2 {
+  animation: scaleIn 1000ms linear !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+  background-repeat: no-repeat;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Google Sans Display", sans-serif;
+}
+
+@media (max-width: 479px) {
+  .Card-2 {
+    animation: scaleIn linear !important;
+    animation-timeline: view() !important;
+    animation-range: entry 0% cover 40% !important;
+  }
 }
