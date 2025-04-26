@@ -1,6 +1,7 @@
 import { socialLinks } from "@/constants";
 import React from "react";
 import { FiExternalLink } from "react-icons/fi";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -13,11 +14,13 @@ const Hero = () => {
                 Software Developer
               </h1>
             </div>
+
             <div className="overflow-hidden">
               <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white animate-text-animation opacity-0 animation-delay-[150ms]">
                 Crafting Softwares
               </h1>
             </div>
+
             <div className="overflow-hidden">
               <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white animate-text-animation opacity-0 animation-delay-[300ms]">
                 That People Love
@@ -56,7 +59,7 @@ const Hero = () => {
         </div>
 
         <div className="md:row-start-auto row-start-2 animate-image-animation p-6 relative max-w-[470px] bg-[url('https://cdn.prod.website-files.com/61f03747d8d407ed117df27f/61f11c12ccb99e089078fc33_Main%20Image%20BG.png')] bg-center bg-cover bg-no-repeat rounded-xl overflow-hidden transition-all duration-300 hover:scale-105">
-          <img
+          <Image
             src="https://res.cloudinary.com/duozomapm/image/upload/v1736669260/myimage1.7_n7ltv9.jpg"
             alt="Hruthik M"
             loading="lazy"
