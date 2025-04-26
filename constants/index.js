@@ -75,8 +75,8 @@ export const projects = [
     ],
     duration: "3-5 Days",
     teamSize: "1 developer",
-    demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/username/ecommerce",
+    demoUrl: "https://hruthik.vercel.app",
+    githubUrl: "https://github.com/Hrithik450/MyPortfolio",
   },
   {
     id: 2,
@@ -99,8 +99,8 @@ export const projects = [
     ],
     duration: "15 days",
     teamSize: "1 developer",
-    demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/username/ecommerce",
+    demoUrl: "https://www.npmjs.com/package/mern-quickstart?activeTab=readme",
+    githubUrl: "https://github.com/Hrithik450/mern-launcher",
   },
   {
     id: 3,
@@ -129,8 +129,8 @@ export const projects = [
     ],
     duration: "15 Days",
     teamSize: "1 developer",
-    demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/username/ecommerce",
+    demoUrl: "https://codeeasex.vercel.app",
+    githubUrl: "https://github.com/Hrithik450/Personal",
   },
   {
     id: 4,
@@ -159,8 +159,8 @@ export const projects = [
     ],
     duration: "15 Days",
     teamSize: "1 developer",
-    demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/username/ecommerce",
+    demoUrl: "https://anox.vercel.app",
+    githubUrl: "https://github.com/Hrithik450/Ecommerce",
   },
 ];
 
