@@ -32,7 +32,7 @@ Want to run it locally?
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Hrithik450/MyPortfolio](https://github.com/Hrithik450/MyPortfolio)
+git clone https://github.com/Hrithik450/MyPortfolio
 # Navigate into the project directory
 cd MyPortfolio
 # Install dependencies
