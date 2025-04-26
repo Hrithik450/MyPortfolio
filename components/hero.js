@@ -30,8 +30,8 @@ const Hero = () => {
 
           <div className="overflow-hidden my-6">
             <p className="max-w-[470px] text-gray-400 text-lg animate-text-animation opacity-0 animation-delay-[479ms]">
-              I'm Hruthik M — A developer who works with startups looking to
-              push creative boundaries and create unique user experiences.
+              I&apos;m Hruthik M — A developer who works with startups looking
+              to push creative boundaries and create unique user experiences.
             </p>
           </div>
 

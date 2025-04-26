@@ -11,15 +11,15 @@ const Footer = () => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-5 [animation-timeline:view()] [animation-range:entry_0%_cover_40%] animate-scaleIn">
           Have projects in mind? <br />
           <span className="[animation-timeline:view()] [animation-range:entry_0%_cover_40%] animate-scaleIn">
-            Let's work{" "}
+            Let&apos;s work{" "}
             <span className="bg-gradient-to-r from-[#ff00ff] to-[#ff7300] bg-clip-text text-transparent">
               together
             </span>
           </span>
         </h1>
         <p className="text-lg max-w-2xl mx-auto my-8 [animation-timeline:view()] [animation-range:entry_0%_cover_40%] animate-scaleIn">
-          I'm Hruthik M a Full Stack Web Developer, Who build robust softwares
-          for clients.
+          I&apos;m Hruthik M a Full Stack Web Developer, Who build robust
+          softwares for clients.
         </p>
         <div className="[animation-timeline:view()] [animation-range:entry_0%_cover_40%] animate-scaleIn mt-6">
           <Link
