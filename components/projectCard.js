@@ -1,13 +1,12 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import Image from "next/image";
 
 const ProjectCard = ({ project }) => {
   return (
     <div className="flex-1 max-w-[600px] transition-all duration-300 hover:-translate-y-[2%] group">
       <div className="animate-scaleIn p-6 border border-gray-700 overflow-hidden bg-gray-900 shadow-lg hover:shadow-xl rounded-lg">
         <div className="w-full h-[300px] overflow-hidden rounded-lg relative">
-          <Image
+          <img
             src={project.image}
             alt={project.title}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
