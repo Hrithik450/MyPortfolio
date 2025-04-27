@@ -30,7 +30,7 @@ export const socialLinks = [
   {
     icon: <FaFileAlt className="text-xl" />,
     name: "Resume",
-    url: "/resume.pdf",
+    url: "https://drive.google.com/file/d/1V0TcNzuu3PLpp2h2HcT-YRZoROvrIWPo/view?usp=sharing",
     color: "bg-purple-500/20 hover:bg-purple-600",
   },
   {
