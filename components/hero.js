@@ -1,6 +1,7 @@
 import { socialLinks } from "@/constants";
 import React from "react";
 import { FiExternalLink } from "react-icons/fi";
+import Image from "next/image";
 
 const Hero = () => {
   return (
