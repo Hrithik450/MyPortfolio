@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const ProjectCard = ({ project }) => {
   return (
     <div className="flex-1 max-w-[600px] transition-all duration-300 hover:-translate-y-[2%] group">
-      <div className="animate-scaleIn p-6 border border-gray-700 overflow-hidden bg-gray-900 shadow-lg hover:shadow-xl rounded-lg">
+      <div className="sm:animate-scaleIn p-6 border border-gray-700 overflow-hidden bg-gray-900 shadow-lg hover:shadow-xl rounded-lg">
         <div className="w-full h-[300px] overflow-hidden rounded-lg relative">
           <img
             src={project.image}

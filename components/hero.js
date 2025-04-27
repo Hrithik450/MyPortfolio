@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 const Hero = () => {
   return (
     <section className="max-w-7xl mx-auto mb-4 border-b border-white/20">
-      <div className="grid items-center md:grid-cols-[1fr_0.75fr] gap-12 px-6 py-40 md:py-12 md:px-6">
+      <div className="grid items-center md:grid-cols-[1fr_0.75fr] gap-12 px-6 py-10 md:py-12 md:px-6">
         <div className="content">
           <div className="heading">
             <div className="overflow-hidden">

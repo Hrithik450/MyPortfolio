@@ -95,11 +95,3 @@ body {
   text-size-adjust: 100%;
   font-family: "Google Sans Display", sans-serif;
 }
-
-@media (max-width: 479px) {
-  .Card-2 {
-    animation: scaleIn linear !important;
-    animation-timeline: view() !important;
-    animation-range: entry 0% cover 40% !important;
-  }
-}

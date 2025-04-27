@@ -1,12 +1,12 @@
 import React from "react";
-import ProjectCard from "./projectCard";
 import { projects } from "@/constants";
+import ProjectCard from "./projectCard";
 
 const Projects = () => {
   return (
     <section
       id="projects"
-      className="max-w-7xl mx-auto py-32 px-4 sm:px-6 lg:px-8"
+      className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
@@ -25,7 +25,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-12">
+          <div className="grid grid-cols-1 gap-5 md:gap-12">
             {projects
               .filter((_, idx) => idx % 2 === 0)
               .map((project, index) => (
